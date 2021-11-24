@@ -11,9 +11,9 @@ text_mining.show_word_rank(text_dir='./text_report',
                            font_size=6,
                            bottom_position=0.20)
 
-text_mining.show_wordcloud(text_dir='./text_report',
-                           sw_list=['当時', '今', '人', '着る', '流行る', 'こと', 'とき', 'もの', 'ところ', 'いう', 'お', 'しれ', '方', '〓'],
-                           font_path="C:/Users/UserName/AppData/Local/Microsoft/Windows/Fonts/ipaexg.ttf")
+# text_mining.show_wordcloud(text_dir='./text_report',
+#                            sw_list=['当時', '今', '人', '着る', '流行る', 'こと', 'とき', 'もの', 'ところ', 'いう', 'お', 'しれ', '方', '〓'],
+#                            font_path="C:/Users/UserName/AppData/Local/Microsoft/Windows/Fonts/ipaexg.ttf")
 
 
 
