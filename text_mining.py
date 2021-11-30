@@ -289,7 +289,7 @@ def show_conetwork(text_dir, sw_list, word=None, edge_threshold=3, k=0.2):
         ['count'].sort_values(ascending=False).reset_index()
 
     if word:
-        plot_draw_networkx(df_net, word='いう', edge_threshold=edge_threshold, k=k)
+        plot_draw_networkx(df_net, word=word, edge_threshold=edge_threshold, k=k)
     else:
         plot_draw_networkx(df_net, edge_threshold, k=k)
 
